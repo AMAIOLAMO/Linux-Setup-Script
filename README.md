@@ -18,5 +18,5 @@ This also installs the FiraCode Nerd Font by downloading it temporarily into `$H
 
 This also installs the [`starship`](https://starship.rs/) cross shell prompt, and initializes the `fish` shell.
 
-License:
+## License:
 Any one can modify and use this script, I cannot care less :P
