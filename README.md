@@ -16,7 +16,7 @@ this installs the following packages and programs that I usually use:
 
 This also installs the FiraCode Nerd Font by downloading it temporarily into `$HOME/Downloads` folder
 
-This also installs the (`starship`)[https://starship.rs/] cross shell prompt, and initializes the `fish` shell.
+This also installs the [`starship`](https://starship.rs/) cross shell prompt, and initializes the `fish` shell.
 
 License:
 Any one can modify and use this script, I cannot care less :P
