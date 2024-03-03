@@ -6,10 +6,13 @@ sudo apt install nala
 
 
 # essential
-sudo nala install neovim fish fzf timeshift
+sudo nala install neovim fish fzf bat timeshift
 
 # non essential
 sudo nala install keepassxc krita nnn syncthing alacritty
+
+# setup fzf with batcat
+printf "\nalias fzfbat \"fzf --preview 'batcat --style=numbers --color=always {}'\"\n" >> ~/.config/fish/config.fish
 
 
 # cd into downloads folder
@@ -30,7 +33,7 @@ fc-cache
 rm -rf FiraCodeTemp
 
 
-# setup programs
+# setup fish
 chsh -s $(which fish)
 
 
