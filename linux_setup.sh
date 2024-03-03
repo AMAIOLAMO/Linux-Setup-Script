@@ -6,10 +6,10 @@ sudo apt install nala
 
 
 # essential
-sudo nala install timeshift neovim fish
+sudo nala install neovim fish fzf timeshift
 
 # non essential
-sudo nala install keepassxc krita nnn syncthing
+sudo nala install keepassxc krita nnn syncthing alacritty
 
 
 # cd into downloads folder
